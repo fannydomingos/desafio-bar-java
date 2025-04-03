@@ -32,6 +32,7 @@ public class Program {
         System.out.printf("Couvert artístico: R$ %.2f%n", bill.cover());
         System.out.printf("Total a pagar: R$ %.2f%n", bill.total());
 
+        
 		sc.close();
 	}
 
