@@ -29,7 +29,7 @@ public class Bill {
             return COVER_CHARGE;  
         }
     }
-
+    
     public double feeding() {
         double total = (beer * BEER_PRICE) + (barbecue * BARBECUE_PRICE) + (softDrink * SOFT_DRINK_PRICE);
         return total;
